@@ -1,6 +1,3 @@
-import React, { Component, useState } from "react";
-import "../styles/App.css";
-
 const App = () => {
   const [renderBall, setRenderBall] = useState(false);
   const [x, setX] = useState(0);
@@ -23,4 +20,3 @@ const App = () => {
 };
 
 export default App;
- 
